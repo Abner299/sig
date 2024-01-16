@@ -45,7 +45,7 @@ def realizar_login():
 
 # Loop principal do programa
 while True:
-    replit.clear()
+    
     print("Bem vindo ao sistema de informação Geral (SIG)") 
     print("")
     print("1 - Realizar login no banco de dados municipal")
