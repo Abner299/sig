@@ -4,7 +4,7 @@ import sqlite3
 # Conectar ao banco de dados SQLite embutido
 conn = sqlite3.connect('dados.db')
 cursor = conn.cursor()
-replit.clear()
+
 # Criar tabela de usuários se ela não existir
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS usuarios (
