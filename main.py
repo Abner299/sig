@@ -1,7 +1,6 @@
 import subprocess
 import sqlite3
-import replit
-import replit 
+
 # Conectar ao banco de dados SQLite embutido
 conn = sqlite3.connect('dados.db')
 cursor = conn.cursor()
